@@ -9,7 +9,7 @@ public class Outside_Package extends All_AccessModifier {
 		Outside_Package obj = new Outside_Package();
 		obj.publicMethod();
 		obj.protMethod();
-		// outside package no access to private and default access modifiers
+		// outside package no access to private and default access modifiers (test)
 		
 		All_AccessModifier obj1 = new All_AccessModifier();
 		obj1.publicMethod(); // here parent class object can call only public access modifier. 
